@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Switcher</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <div class="flex justify-center items-center h-screen container mx-auto">
+        <div class="flex flex-col justify-center items-center h-full">
+            <h1 class="md:text-[4em] text-[2em] font-bold mb-4 justify-self-start absolute top-5 text-center px-4">Color Switcher</h1>
+            <div class="color flex justify-center items-center flex-wrap gap-4">
+                <div class="color w-16 h-16 rounded-full bg-red-500 border-2 cursor-pointer" id = "red"></div>
+                <div class="color w-16 h-16 rounded-full bg-green-500 border-2 cursor-pointer" id = "green"></div>
+                <div class="color w-16 h-16 rounded-full bg-blue-500 border-2 cursor-pointer" id ="blue"></div>
+                <div class="color w-16 h-16 rounded-full bg-yellow-500 border-2 cursor-pointer" id ="yellow"></div>
+                <div class="color w-16 h-16 rounded-full bg-purple-500 border-2 cursor-pointer" id="purple"></div>
+                <div class="color w-16 h-16 rounded-full bg-pink-500 border-2 cursor-pointer" id="pink"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
